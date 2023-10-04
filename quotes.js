@@ -25,8 +25,8 @@ const generateQuote = function() {
         author: "Haruki Murakami"
     },
     {
-        quote: "Have a biscuit, Potter.",
-        author: "Minerva McGonagall"
+        quote: "Rest is not idleness, and to lie sometimes on the grass under trees on a summer’s day, listening to the murmur of the water, or watching the clouds float across the sky, is by no means a waste of time.",
+        author: "John Lubbock"
     },
     {
         quote: "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
@@ -39,6 +39,10 @@ const generateQuote = function() {
     {
         quote: "I don’t think of all the misery, but of the beauty that still remains.",
         author: "Anne Frank"
+    },
+    {
+        quote: "Enjoy the little things, for one day you may look back and realize they were the big things.",
+        author: "Robert Brault"
     }
 ];
 
