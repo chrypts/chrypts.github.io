@@ -1,2 +1,2 @@
-# positivepsych
+# Positive Psychology
 My Positivity Portfolio
