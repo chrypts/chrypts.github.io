@@ -2,7 +2,7 @@ const generateQuote = function() {
     const quotes = [
     {
         quote: "Look at that sea, girls — all silver and shadow and vision of things not seen. We couldnt enjoy its loveliness any more if we had millions of dollars and ropes of diamonds.",
-        author: "L. M. Montgomery, Anne of Green Gables"
+        author: "L. M. Montgomery"
     },
     {
         quote: "Home is what you take with you, not what you leave behind.",
