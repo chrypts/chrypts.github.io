@@ -1,28 +1,28 @@
 const generateQuote = function() {
     const quotes = [
     {
-        quote: "Do not pity the dead, Harry. Pity the living, and, above all those who live without love.",
-        author: "Albus Dumbledore"
+        quote: "Look at that sea, girls — all silver and shadow and vision of things not seen. We couldnt enjoy its loveliness any more if we had millions of dollars and ropes of diamonds.",
+        author: "L. M. Montgomery, Anne of Green Gables"
     },
     {
-        quote: "It is impossible to manufacture or imitate love",
-        author: "Horace Slughorn"
+        quote: "Home is what you take with you, not what you leave behind.",
+        author: "N. K. Jemisin"
     },
     {
-        quote: "Being different isn't a bad thing. I means that you are brave enough to be yourself.",
-        author: "Luna Lovegood"
+        quote: "If you will stay close to nature, to its simplicity, to the small things hardly noticeable, those things can unexpectedly become great and immeasurable.",
+        author: "Rainer Maria Rilke"
     },
     {
-        quote: "If you want to know what a man is like, take a good look at how he treats his inferiors, not his equals.",
-        author: "Sirius Black"
+        quote: "And forget not that the earth delights to feel your bare feet and the winds long to play with your hair.",
+        author: "Khalil Gibran"
     },
     {
-        quote: "Never trust anything that can think for itself if you cant see where it keeps its brain.",
-        author: "Arthur Weasley"
+        quote: "I took a deep breath and listened to the old brag of my heart. I am, I am, I am.",
+        author: "Sylvia Plath"
     },
     {
-        quote: "Every human life is worth the same, and worth saving.",
-        author: "Kingsley Shacklebolt"
+        quote: "The stars are like the trees in the forest, alive and breathing. And they’re watching me.",
+        author: "Haruki Murakami"
     },
     {
         quote: "Have a biscuit, Potter.",
@@ -33,8 +33,12 @@ const generateQuote = function() {
         author: "Albus Dumbledore"
     },
     {
-        quote: "Socks are Dobbys favorite, favorite clothes, sir!",
-        author: "Dobby"
+        quote: "Whenever you are creating beauty around you, you are restoring your own soul.",
+        author: "Alice Walker"
+    },
+    {
+        quote: "I don’t think of all the misery, but of the beauty that still remains.",
+        author: "Anne Frank"
     }
 ];
 
