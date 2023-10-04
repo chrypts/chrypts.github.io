@@ -2,7 +2,7 @@ body {
     background-color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    line-height:25px;
+    line-height:1.5;
     color:black;
     display: flex;
     justify-content: center;
@@ -26,9 +26,9 @@ p {
 #top-thingy{ 
     position:fixed;
     top:0;
-    height:300px;
+    height:auto;
     object-position: center;
-    padding:20px;
+    padding:100px;
     width:100%;
     background: rgb(255,239,210);
     background: radial-gradient(circle, rgba(255,239,210,1) 1%, rgba(255,210,245,1) 35%, rgba(219,213,250,1) 63%, rgba(183,215,255,1) 100%);
@@ -41,7 +41,6 @@ p {
 
 .toptxt {
     font-family: Recoleta;
-    margin-top:125px;
     font-weight: bolder;
     font-size: 1000%;
     color:aliceblue;
