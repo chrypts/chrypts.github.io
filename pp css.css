@@ -1,31 +1,25 @@
 body {
     background-color:white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
     line-height:1.5;
     color:black;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-h1 {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-
-p {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-.container {
-    width:500px;
+#container {
+    width:1200px;
+    display:grid;
+    position:relative;
+    margin-top:250px;
 }
 
 #top-thingy{ 
     position:fixed;
     top:0;
+    left:0;
     height:auto;
     object-position: center;
     padding:100px;
@@ -42,7 +36,7 @@ p {
 .toptxt {
     font-family: Recoleta;
     font-weight: bolder;
-    font-size: 1000%;
+    font-size: 500%;
     color:aliceblue;
     text-align: center;
     text-shadow: 1px 1px 2px plum;
@@ -50,10 +44,12 @@ p {
 
 #outer-container{
     padding:20px;
-    background:black;
-    color:white;
+    background: white;
     border-radius: 25px;
     align-items: center;
+    text-align: center;
+    margin-top:100px;
+
 }
 
 .button_cont{
@@ -62,6 +58,7 @@ p {
   }
 
 .button {
+    margin-top:15px;
     position: relative;
     background-color:white;
     color: black;
@@ -72,21 +69,97 @@ p {
     padding:10px;
 }
 
-  .quote {
-    max-width:60%;
-    height:70px;
-    margin-left:19%;
+.quote {
     border-radius:25px;
-    padding:15px;
     text-align:center;
-    color:white;
-  }
+    color:black;
+    font-size: 120%;
+    font-weight:bolder;
+    margin-bottom:-15px;
+
+}
 
 .author {
     font-style: italic;
-  }
+    position:relative;
+}
 
- #header {
+#header {
     align-items:center;
     justify-content: center;
- }
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.fotogrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1em;
+  }
+  
+.tile {
+    position: relative;
+    width: 200px;
+    color:transparent;
+    font-family:Recolata;
+    text-align:center;
+    display: grid; /* an inner grid */
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    margin-top:20px;
+  }
+  
+.tile a {
+    grid-row: 1; /* place in first row */
+    grid-column: 1;  /* place in first column */
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+
+.tile a:hover{
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+
+.tile img {
+    object-fit: cover;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid #feecff;
+}
+  
+.tile h4 {
+    margin: 0;
+    padding: 10px 14px;
+    opacity: .8;
+    grid-row: 1; /* place in first row */
+    grid-column: 1;  /* place in first column */
+    align-self: flex-start; /* take auto-width */
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+  
+.tile:hover {
+    opacity: 1;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+
+
+.tile:hover h4{
+    color:rgb(0, 0, 0);
+    background: rgb(255,239,210);
+    background: radial-gradient(circle, rgba(255,239,210,1) 1%, rgba(255,210,245,1) 35%, rgba(219,213,250,1) 63%, rgba(183,215,255,1) 100%);
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #feecff
+}
