@@ -104,7 +104,7 @@ body {
     position: relative;
     width: 200px;
     color:transparent;
-    font-family:Recolata;
+    font-family:tangerine;
     text-align:center;
     display: grid; /* an inner grid */
     -webkit-transition: all 0.7s ease;
