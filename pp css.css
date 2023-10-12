@@ -33,6 +33,11 @@ body {
     src: url(Recoleta-RegularDEMO.otf);
 }
 
+@font-face {
+    font-family: tangerine;
+    src: url(tangerine.otf);
+}
+
 .toptxt {
     font-family: Recoleta;
     font-weight: bolder;
