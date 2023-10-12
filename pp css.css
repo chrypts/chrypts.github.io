@@ -139,6 +139,7 @@ body {
     margin: 0;
     padding: 10px 14px;
     opacity: .8;
+    font-family: tangerine;
     grid-row: 1; /* place in first row */
     grid-column: 1;  /* place in first column */
     align-self: flex-start; /* take auto-width */
