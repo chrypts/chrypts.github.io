@@ -145,6 +145,8 @@ body {
     padding: 10px 14px;
     opacity: .8;
     font-family: tangerine;
+    letter-spacing: 5px;
+    color: white;
     grid-row: 1; /* place in first row */
     grid-column: 1;  /* place in first column */
     align-self: flex-start; /* take auto-width */
