@@ -88,6 +88,7 @@ body {
 .author {
     font-style: italic;
     position:relative;
+    padding-top: 10px;
 }
 
 #header {
