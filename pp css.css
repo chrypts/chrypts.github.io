@@ -145,6 +145,8 @@ body {
     margin: 0;
     padding: 10px 14px;
     opacity: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-family: tangerine;
     letter-spacing: 5px;
     grid-row: 1; /* place in first row */
