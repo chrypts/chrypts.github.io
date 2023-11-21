@@ -39,6 +39,11 @@ body {
     src: url(tangerine.otf);
 }
 
+@font-face {
+    font-family: tangerine;
+    src: url(TravelingTypewriter.otf);
+}
+
 .toptxt {
     font-family: Recoleta;
     font-weight: bolder;
